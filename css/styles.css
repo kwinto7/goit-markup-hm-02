@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", serif;
+    font-family: "Roboto", "Raleway", serif;
     color: #434455;
     background-color: #ffffff; 
 }
@@ -12,15 +12,32 @@ a {
     text-decoration: none;
 }
 
-.logo {
+address {
+    font-style:normal;
+}
+
+.logo
+.logo span {
     font-family: "Raleway", serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.logo {
     color: #4D5AE5;
 }
+
+header .logo span {
+    color: #2e2f42;
+}
+
+footer .logo span {
+    color: #f4f4fd;
+}
+
 
 .nav,
 .contacts {
@@ -45,11 +62,6 @@ h1 {
 }
 
 .main-page-button {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 150%;
