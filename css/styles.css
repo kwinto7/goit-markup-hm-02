@@ -108,12 +108,8 @@ footer .logo span {
 }
 
 .features-title,
-.banking-title,
-.payment-title,
-.meditation-title,
-.taxi-title,
-.screen-title
-.cources-title {
+.product-title,
+.employee-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -127,6 +123,10 @@ footer .logo span {
     letter-spacing: 0.02em;
 }
 
+.employee-fhoto {
+    background-color: #ffffff;
+}
+
 .our-team {
     background-color: #f4f4fd;
 }
@@ -134,4 +134,6 @@ footer {
     background-color: #2e2f42;
     color: #f4f4fd;
 }
-
+.footer-description {
+    letter-spacing: 0.02em;
+}
