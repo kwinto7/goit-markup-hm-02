@@ -107,10 +107,7 @@ footer .logo span {
     text-transform: capitalize;
 }
 
-.strategy-title,
-.punctuality-title,
-.diligence-title,
-.technologies-title,
+.h3-title,
 .banking-title,
 .payment-title,
 .meditation-title,
@@ -124,10 +121,7 @@ footer .logo span {
     color: #2e2f42;
 }
 
-.strategy-description,s
-.punctuality-description,
-.diligence-description,
-.technologies-description,
+.description,
 .employee-position {
     line-height: 150%;
     letter-spacing: 0.02em;
