@@ -39,15 +39,30 @@ footer .logo span {
 }
 
 
-nav,
+.nav-link,
 .contacts {
     line-height: 150%;
     letter-spacing: 0.02em;
 }
 
-nav {
+.nav-link {
     font-weight: 500;
     color: #2e2f42;
+}
+.nav-link:hover {
+    color: #404bbf;
+}
+
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.contacts:hover {
+    color: #404bbf;
+}
+
+.contacts:focus {
+    color: #404bbf;
 }
 
 .main-page {
